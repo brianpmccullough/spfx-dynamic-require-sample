@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "spfx-dynamic-require-sample",
+    "libraryId": "dd9f1738-e9c8-4afc-90f9-80ab791ecc6f",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-dynamic-require-sample",
+    "solutionShortDescription": "spfx-dynamic-require-sample description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

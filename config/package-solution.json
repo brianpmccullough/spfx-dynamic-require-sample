@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-dynamic-require-sample-client-side-solution",
+    "id": "dd9f1738-e9c8-4afc-90f9-80ab791ecc6f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-dynamic-require-sample description"
+      },
+      "longDescription": {
+        "default": "spfx-dynamic-require-sample description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-dynamic-require-sample Feature",
+        "description": "The feature that activates elements of the spfx-dynamic-require-sample solution.",
+        "id": "5a66629f-f60a-4513-b475-ec58eaeea15c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-dynamic-require-sample.sppkg"
+  }
+}

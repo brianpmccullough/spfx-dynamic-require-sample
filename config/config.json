@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-dynamic-require-sample-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxDynamicRequireSample/SpfxDynamicRequireSampleWebPart.js",
+          "manifest": "./src/webparts/spfxDynamicRequireSample/SpfxDynamicRequireSampleWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpfxDynamicRequireSampleWebPartStrings": "lib/webparts/spfxDynamicRequireSample/loc/{locale}.js"
+  }
+}
