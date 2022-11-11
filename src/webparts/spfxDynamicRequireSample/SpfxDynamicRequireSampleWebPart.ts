@@ -28,6 +28,10 @@ export default class SpfxDynamicRequireSampleWebPart extends BaseClientSideWebPa
 
   public render(): void {
 
+    //TODO: based on web part properties, load the correct vendor script.
+    //Each vendor script has same interface (e.g. showAlert()), but slightly different implementations.
+    //So far, as you manipulate web part property "description" to be either "vendor1" or "vendor2", it loads script (as seen in console).
+    //How do I interact with showAlert().
     if (this.properties.description === "vendor1" || this.properties.description === "vendor2") {
       window.vendor = _requireContext("./" + this.properties.description + ".js");
       console.log(window.vendor);
